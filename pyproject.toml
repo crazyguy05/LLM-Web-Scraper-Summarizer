@@ -1,0 +1,13 @@
+[project]
+name = "url-website-summarizer"
+version = "0.1.0"
+description = "A tool to summarize website contents using Groq"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "groq",
+    "beautifulsoup4",
+    "requests",
+    "ipython",
+]
+
